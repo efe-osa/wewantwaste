@@ -126,7 +126,7 @@ export default function ProgressIndicator({ currentStep }) {
           <>
             <button
               key={encodeURIComponent(step.name)}
-              className={classNames(styles.progressStep, {
+              className={classNames("progress-step", {
                 completed: isCompleted,
                 active: isActive,
               })}

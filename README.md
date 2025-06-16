@@ -1,2 +1,74 @@
-# wewantwaste
-Created with CodeSandbox
+# WeWantWaste
+
+A modern React-based web application for waste management and recycling initiatives.
+
+## 🚀 Features
+
+- Modern React application built with TypeScript
+- Responsive design for optimal user experience
+- Component-based architecture for maintainable code
+- Integration with external APIs using Axios
+
+## 🛠️ Tech Stack
+
+- React 19
+- TypeScript
+- React Scripts
+- Axios for API calls
+- Classnames for conditional styling
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone git@github.com:efe-osa/wewantwaste.git
+cd wewantwaste
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The application will be available at `http://localhost:3000`
+
+## 🏗️ Project Structure
+
+```
+wewantwaste/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── styles.css     # Global styles
+│   ├── index.js       # Application entry point
+│   └── App.jsx        # Root component
+├── public/            # Static assets
+└── package.json       # Project dependencies and scripts
+```
+
+## 🧪 Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from create-react-app
+
+## 🌐 Browser Support
+
+The application supports all modern browsers:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## 📝 License
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
